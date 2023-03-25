@@ -1,0 +1,18 @@
+{
+  "name": "@s-communication/data-schemas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Juan Pablo Denis <jp.deniso@gmail.com>",
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "private": true
+}
