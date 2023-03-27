@@ -1,10 +1,11 @@
 {
-  "name": "s-communications-challenge",
+  "name": "s-communication-challenge",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "services/*",
+    "packages/*",
+    "clients/*"
   ],
   "scripts": {
     "build": "turbo run build",
