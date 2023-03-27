@@ -1,0 +1,9 @@
+{
+  "name": "@s-communication/types",
+  "version": "1.0.0",
+  "description": "Project wide types",
+  "main": "index.ts",
+  "types": "index.ts",
+  "author": "Juan Pablo Denis <jp.deniso@gmail.com>",
+  "license": "MIT"
+}
