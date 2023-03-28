@@ -1,9 +1,9 @@
 import { z } from "zod";
 
 export const loanSchema = z.object({
-  amount: z.number().positive(),
-  interestRate: z.number().nonnegative(),
-  amortizationRate: z.number().nonnegative(),
+  amount: z.number().gt(0),
+  interestRate: z.number().gt(0),
+  amortizationRate: z.number().gt(0),
   hasFixedInterestPeriod: z.boolean(),
   fixedInterestPeriodInYears: z.number().min(1).max(30).nullable(),
 });
