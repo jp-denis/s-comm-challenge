@@ -5,7 +5,7 @@ WORKDIR /app
 
 RUN yarn global add turbo
 COPY . .
-RUN turbo prune --scope=@s-communication/web-app --docker
+RUN turbo prune --scope=@s-communications/web-app --docker
 
 
 # Add lockfile and package.json's of isolated subworkspace
@@ -28,7 +28,7 @@ COPY turbo.json turbo.json
 # ON PRODUCTION SETUP PASS THIS ENV AS ARGUMENT
 ENV NEXT_PUBLIC_API_HOST="http://localhost:3000"
 
-RUN yarn turbo run build --filter=@s-communication/web-app
+RUN yarn turbo run build --filter=@s-communications/web-app
 
 FROM node:alpine AS runner
 WORKDIR /app

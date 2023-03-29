@@ -1,5 +1,5 @@
 {
-  "name": "@s-communication/core",
+  "name": "@s-communications/core",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -25,7 +25,7 @@
     "@nestjs/config": "^2.3.1",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
-    "@s-communication/data-schemas": "*",
+    "@s-communications/data-schemas": "*",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
@@ -33,7 +33,7 @@
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/testing": "^9.0.0",
-    "@s-communication/types": "*",
+    "@s-communications/types": "*",
     "@types/express": "^4.17.13",
     "@types/jest": "29.2.4",
     "@types/node": "18.11.18",

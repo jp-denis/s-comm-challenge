@@ -1,6 +1,6 @@
 import { currencyFormatter } from "@/src/helpers/currencyFormatter";
 import { Box, Divider, Paper, Stack, Typography } from "@mui/material";
-import { LoanCalculationResult } from "@s-communication/types";
+import { LoanCalculationResult } from "@s-communications/types";
 
 type Props = Pick<
   LoanCalculationResult,

@@ -1,7 +1,7 @@
 "use client";
 
 import { Form, Field, FormikProps, FieldProps } from "formik";
-import { LoanSchema } from "@s-communication/data-schemas";
+import { LoanSchema } from "@s-communications/data-schemas";
 import { useEffect } from "react";
 import {
   Box,

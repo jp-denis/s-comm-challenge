@@ -1,5 +1,6 @@
 import { z } from "zod";
 
+// TODO: translate default error messages to German
 export const loanSchema = z.object({
   amount: z.number().gt(0),
   interestRate: z.number().gt(0),

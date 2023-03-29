@@ -1,5 +1,5 @@
 {
-  "name": "@s-communication/types",
+  "name": "@s-communications/types",
   "version": "1.0.0",
   "description": "Project wide types",
   "main": "index.ts",
