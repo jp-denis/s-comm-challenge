@@ -1,6 +1,6 @@
 import { BadRequestException, Body, Controller, Post } from '@nestjs/common';
-import { loanSchema } from '@s-communications/data-schemas';
-import { LoanCalculationResult } from '@s-communications/types';
+import { loanSchema } from '@s-communication/data-schemas';
+import { LoanCalculationResult } from '@s-communication/types';
 import { LoanDTO } from './loan/loan.dto';
 import { LoanService } from './loan/loan.service';
 

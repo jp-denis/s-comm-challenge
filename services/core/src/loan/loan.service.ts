@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { LoanCalculationResult, PeriodReport } from '@s-communications/types';
+import { LoanCalculationResult, PeriodReport } from '@s-communication/types';
 import { LoanDTO } from './loan.dto';
 
 @Injectable()

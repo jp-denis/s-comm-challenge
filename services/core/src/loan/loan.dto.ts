@@ -1,4 +1,4 @@
-import { LoanSchema } from '@s-communications/data-schemas';
+import { LoanSchema } from '@s-communication/data-schemas';
 
 export class LoanDTO implements LoanSchema {
   amount: number;

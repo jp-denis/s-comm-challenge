@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { LoanCalculationResult } from "@s-communications/types";
+import { LoanCalculationResult } from "@s-communication/types";
 import { LoanForm } from "./LoanForm";
 import { Formik, FormikHelpers, FormikProps } from "formik";
-import { loanSchema, LoanSchema } from "@s-communications/data-schemas";
+import { loanSchema, LoanSchema } from "@s-communication/data-schemas";
 import { toFormikValidationSchema } from "zod-formik-adapter";
 import { LoanTable } from "./LoanTable";
 import {

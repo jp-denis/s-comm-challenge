@@ -1,5 +1,5 @@
 {
-  "name": "@s-communications/web-app",
+  "name": "@s-communication/web-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.14",
-    "@s-communications/data-schemas": "*",
+    "@s-communication/data-schemas": "*",
     "@types/node": "18.15.7",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
@@ -27,6 +27,6 @@
     "zod-formik-adapter": "^1.2.0"
   },
   "devDependencies": {
-    "@s-communications/types": "*"
+    "@s-communication/types": "*"
   }
 }
