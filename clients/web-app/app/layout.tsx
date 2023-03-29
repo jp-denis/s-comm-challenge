@@ -3,6 +3,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Image from "next/image";
+import SLogo from "./S-logo.svg";
 
 const theme = createTheme({
   palette: {
@@ -49,7 +50,7 @@ export default function RootLayout({
                 alignItems="center"
                 marginTop={{ xs: "-1em", md: "auto" }}
               >
-                <Image src="/s-logo.svg" width="130" height="130" alt="Logo" />
+                <Image src={SLogo} width="130" height="130" alt="Logo" />
                 <Typography
                   variant="h1"
                   fontSize="24px"

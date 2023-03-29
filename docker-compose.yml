@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  web-app:
+    build:
+      context: .
+      dockerfile: ./clients/web-app/Dockerfile
+    restart: always
+    depends_on:
+      - core-service
+    ports:
+      - 8000:3000
+    environment:
+      - NEXT_PUBLIC_API_HOST=http://core-service
+      - PORT=3000
+
+  core-service:
+    build:
+      context: .
+      dockerfile: ./services/core/Dockerfile
+    restart: always
+    environment:
+      - PORT=3000
+    ports:
+      - 3000:3000
